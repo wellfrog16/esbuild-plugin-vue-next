@@ -1,5 +1,5 @@
 {
-    "name": "esbuild-plugin-vue-next",
+    "name": "@wfrog/esbuild-plugin-vue-next",
     "version": "0.1.5",
     "description": "an esbuild plugin for vue 3.x SFC",
     "main": "dist/index.js",
