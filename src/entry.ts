@@ -24,7 +24,7 @@ export function loadEntry(source: string, filename: string, sourcemap: boolean) 
         templateBindCode += `\nscript.render = render`
     }
 
-    let styleImportCode = ''
+    let styleImportCode = '\nlet cssModules = {}'
     let hasModuleInject = false
     descriptor.styles.forEach((styleBlock, i) => {
         const stylePath = `${filename}?type=style&index=${i}`

@@ -2,6 +2,8 @@
 
 building vue 3.x SFC files with esbuild.
 
+* fixed cssModules
+
 # Quickstart
 
 - install
